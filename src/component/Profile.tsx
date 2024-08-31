@@ -16,8 +16,14 @@ const Profile: React.FC<CardProps> = ({ isOpen, isClose, im, na }) => {
         <div className='w-[100%] h-screen fixed top-0 right-0 left-0 z-50 bg-white drop-shadow-lg'>
 
             <div onClick={()=> isClose() } className='fixed top-2 right-7'> X </div>
+            <div className='bg-blue-950 w-40 h-10 fixed top-6 -left-3 rounded-sm text-white font-light flex justify-center items-center'> 
+                
+                <div>
+                    Clinic
+                </div>
+            </div>
 
-            <div className='w-full h-[35%] bg-blue-100 flex justify-between pt-16 pb-6'>
+            <div className='w-full h-[35%] bg-blue-100 flex justify-between pt-20 pb-6 pr-6'>
                 <div className='w-[50%] ml-3  '>
                     <h1 className='text-xl '>{na}</h1>
                     <p className='font-light text-[12px]'>Dentist,Implantologist,Pediatric Dentist,Cosmetic/Aesthetic Dentist</p>
