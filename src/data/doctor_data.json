@@ -1,0 +1,28 @@
+{
+    "doctors": [
+        {
+            "name": "Dr. Sumanth Shetty",
+            "img": "https://imagesx.practo.com/providers/dr-sumanth-shetty-dentist-bangalore-89d282eb-19a9-464b-b888-87a17e746559.jpg?i_type=t_70x70"
+        },
+        {
+            "name": "Dr. Venkatesh M J",
+            "img": "https://imagesx.practo.com/providers/dr-venkatesh-m-j-orthodontist-bangalore-ee5cbcc5-c408-4b69-99ef-abeae7307239.jpg?i_type=t_70x70"
+        },
+        {
+            "name": "Dr. Aisha Sharma",
+            "img": "https://imagesx.practo.com/providers/dr-aditi-garg-oral-and-maxillofacial-surgeon-bangalore-f928245f-8439-45d9-8fb2-9af49eca6855.jpg?i_type=t_70x70"
+        },
+        {
+            "name": "Dr. Raj Kumar",
+            "img": "https://imagesx.practo.com/providers/dr-jnanesha-h-c-orthodontist-bangalore-3b18fc34-d140-4fe1-99b7-fc1dc0c04b9a.jpg?i_type=t_70x70"
+        },
+        {
+            "name": "Dr. Priya Menon",
+            "img": "https://imagesx.practo.com/providers/dr-archana-s-dentist-bangalore-f0ac7524-7b4b-4c13-8fb0-90f350ba3165.jpg?i_type=t_70x70"
+        },
+        {
+            "name": "Dr. Arjun Nair",
+            "img": "https://imagesx.practo.com/providers/dr-k-a-mohan-orthodontist-bangalore-5021e4f3-7a64-4825-8958-c323fdd45b69.jpg?i_type=t_70x70"
+        }
+    ]
+}

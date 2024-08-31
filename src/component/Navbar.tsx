@@ -7,17 +7,25 @@ function Navbar() {
     return (
         <div className="w-screen h-fit flex flex-col ">
             <div className="bg-white w-full">
-                <div className="w-full h-20 flex  justify-around  items-center px-2 border-b-2 border-gray-200">
-                    <div className="w-[30%] flex items-center justify-around">
+                <div className="w-full h-20 flex  justify-around  items-center  border-b-2 border-gray-200">
+                    <div className="w-fit ml-4 flex items-center justify-around">
                         <div><img src="/logo.png" className='w-40' alt="logo" /></div>
-                        <div className='font-bold '>Find Doctors</div>
-                        <div className='font-bold '>Video Consult</div>
-                        <div className='font-bold '>Surguries</div>
                     </div>
-                    <div className='w-[25%] flex items-center justify-around'>
-                        <div className='text-xs flex items-center'> <div className="bg-blue-600 text-white rounded-full text-[10px] mr-1 px-1">new</div> For Corporates  <RiArrowDropDownLine className="text-xl" /> </div>
-                        <div className='text-xs flex items-center'>For Provider <RiArrowDropDownLine className="text-xl" /> </div>
-                        <div className='text-xs flex items-center'>Security & help <RiArrowDropDownLine className="text-xl" /> </div>
+                    <div className="hidden lg:block w-[70%] ">
+                        <div className="w-full flex justify-between">
+                            <div className="w-[40%] flex justify-evenly">
+                                <div className='font-bold '>Find Doctors</div>
+                                <div className='font-bold '>Video Consult</div>
+                                <div className='font-bold '>Surguries</div>
+                            </div>
+                            <div className="w-[35%] flex justify-evenly">
+                                <div className='text-xs flex items-center '> <div className="bg-blue-600 text-white rounded-full text-[10px] mr-1 px-1 inline">new</div> For Corporates  <RiArrowDropDownLine className="text-xl" /> </div>
+                                <div className='text-xs flex items-center'>For Provider <RiArrowDropDownLine className="text-xl" /> </div>
+                                <div className='text-xs flex items-center'>Security & help <RiArrowDropDownLine className="text-xl" /> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className=' flex items-center justify-around'>
                         <div className='border border-gray-400 p-1 text-xs text-gray-400 hover:border-blue-600 hover:text-blue-500 rounded-sm'> Login/Signup</div>
                     </div>
                 </div>

@@ -1,6 +1,7 @@
 import Card from "@/component/Card";
 import Image from "next/image";
 import { FaCheckCircle } from "react-icons/fa";
+import doctorData from '@/data/doctor_data.json'
 
 export default function Home() {
   return (
@@ -15,8 +16,10 @@ export default function Home() {
         <div className="flex items-center mt-3"><FaCheckCircle /> <p> Book appointments with minimum wait-time & verified doctor details</p></div>
       </div>
 
-      <div className="w-full flex justify-center items-center ">
-        <Card/>
+      <div className="w-full flex flex-col gap-24 items-center">
+        {doctorData.doctors.map((doctor, index) => (
+          <Card key={index} images={doctor.img} name={doctor.name} />
+        ))}
       </div>
     </main>
   );
