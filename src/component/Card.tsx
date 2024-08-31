@@ -5,13 +5,12 @@ import { IoStarSharp } from 'react-icons/io5';
 import Profile from '@/component/Profile';
 
 interface CardProps {
-    isOpen: boolean;
-    onClose: () => boolean; 
     images: string;
     name: string;
 }
 
 const Card: React.FC<CardProps> = ({ images, name }) => {
+    
     const [model, setModel] = useState(false);
 
     return (
@@ -101,11 +100,11 @@ const Card: React.FC<CardProps> = ({ images, name }) => {
                 </div>
             </div>
             <Profile
-                isOpen = {model}
-                onClose ={() => setModel(false)}
-                im = {images}
-                na = {name}
-             />
+                isOpen={model}
+                isClose={() => setModel(false) }
+                im={images}
+                na={name}
+            />
         </div>
     );
 };

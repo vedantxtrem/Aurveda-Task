@@ -13,7 +13,7 @@ function Navbar() {
                         <div className="lg:hidden w-12">
                             <IoMdMenu />
                         </div>
-                        <div><img src="/logo.png" className='w-32 md:w-40' alt="logo" /></div>
+                        <div><img src="/logo.png " className='w-32 md:w-40' alt="logo" /></div>
                     </div>
                     <div className="hidden lg:block w-[70%] ">
                         <div className="w-full flex justify-between">
