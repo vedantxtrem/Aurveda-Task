@@ -13,9 +13,9 @@ interface CardProps {
 const Profile: React.FC<CardProps> = ({ isOpen, isClose, im, na }) => {
     if (!isOpen) return null;
     return (
-        <div className='w-screen h-screen fixed top-0 right-0 left-0 z-50 bg-white drop-shadow-lg'>
+        <div className='w-[100%] h-screen fixed top-0 right-0 left-0 z-50 bg-white drop-shadow-lg'>
 
-            <div onClick={()=> isClose() } className='fixed top-2 right-5'> X </div>
+            <div onClick={()=> isClose() } className='fixed top-2 right-7'> X </div>
 
             <div className='w-full h-[35%] bg-blue-100 flex justify-between pt-16 pb-6'>
                 <div className='w-[50%] ml-3  '>
