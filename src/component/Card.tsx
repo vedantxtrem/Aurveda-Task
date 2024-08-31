@@ -14,7 +14,7 @@ const Card: React.FC<CardProps> = ({ images, name }) => {
     const [model, setModel] = useState(false);
 
     return (
-        <div className="w-full md:w-[80%] md:h-48 flex flex-col mb-3 mt-5 z-20">
+        <div className="w-full md:w-[80%] md:h-48 flex flex-col  z-20 bg-white pb-7 py-4">
             <div className='w-full flex'>
                 <div className='w-[50%] lg:w-[20%] md:h-full p-5'>
                     <img className='rounded-full w-full' src={images} alt="doctor-img" />

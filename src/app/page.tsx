@@ -14,7 +14,7 @@ export default function Home() {
         <div className="font-bold text-xl md:text-2xl text-center"> 792 doctors available in Bangalore</div>
         <div className="flex px-2 gap-2 text-xs md:text-sm mt-3  "><FaCheckCircle /> <p> Book appointments with minimum wait-time & verified doctor details</p></div>
       </div>
-      <div className="w-full flex flex-col gap-24 items-center">
+      <div className="w-full flex flex-col gap-2 items-center bg-gray-200 mt-6">
         {doctorData.doctors.map((doctor, index) => (
           <Card key={index}
           images={doctor.img}
