@@ -30,7 +30,7 @@ function Navbar() {
                         </div>
                     </div>
                     <div className='mr-4 md:mr-8 flex items-center justify-around'>
-                        <div className='lg:hidden border  p-1 text-xs border-blue-500 text-blue-500 rounded-sm'> signin</div>
+                        <div className='lg:hidden border  p-1 text-sm border-blue-500 text-blue-500 rounded-sm py-2 '> signin</div>
                         <div className='hidden lg:block border border-gray-400 p-1 text-xs text-gray-400 hover:border-blue-600 hover:text-blue-500 rounded-sm'> Login/Signup</div>
                     </div>
                 </div>
