@@ -57,7 +57,7 @@ const Card: React.FC<CardProps> = ({ images, name }) => {
 
             <div className='w-full md:hidden'>
                 <div className='w-full flex justify-center flex-col gap-4'>
-                    <div className='w-full px-2 flex items-center'>
+                    <div className='w-full px-3 pl-4 flex items-center '>
                         <div className='flex w-[50%]'>
                             <div className='bg-green-500 text-white rounded-lg flex items-center px-2'>
                                 <FaThumbsUp className='mx-1' /> 97%
@@ -75,7 +75,7 @@ const Card: React.FC<CardProps> = ({ images, name }) => {
                             </div>
                         </div>
                     </div>
-                    <div className='w-full px-2'>
+                    <div className='w-full px-5 '>
                         <h5 className='text-sm flex'>
                             <p className='font-bold'>Indiranagar</p>, Bangalore
                         </h5>
