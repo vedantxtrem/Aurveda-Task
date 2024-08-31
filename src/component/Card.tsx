@@ -85,7 +85,7 @@ const Card: React.FC<CardProps> = ({ images, name }) => {
                         </h6>
                     </div>
                     <div className='w-full flex flex-col justify-center items-center'>
-                        <div className='w-full text-sm text-green-600 font-bold mb-3 ml-5'>Next Available AT</div>
+                        <div className='w-full text-sm text-green-600 font-bold mb-3 ml-5 px-3'>Next Available AT</div>
                         <div className='w-full flex justify-around'>
                             <div
                                 onClick={() => setModel(true)}
