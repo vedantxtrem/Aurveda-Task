@@ -52,7 +52,7 @@ const Profile: React.FC<CardProps> = ({ isOpen, isClose, im, na }) => {
             </div>
 
             <div className='w-full flex  justify-center items-center mt-6 ' >
-                <div className='w-[92%] flex flex-col items-center justify-center rounded-2xl shadow-[0_0_10px] pb-4 '>
+                <div className='w-[92%] flex flex-col items-center justify-center rounded-2xl shadow-[0_0_10px_#808080] pb-4 '>
                         <div className='bg-blue-200 w-full h-14 rounded-t-2xl flex justify-between px-3 items-center'>
                             <div className='flex items-center gap-2'> <ImHome className="text-blue-400"/> Clinic Appointment </div>
                             <div className='text-sm font-bold'>&#x20B9;300 fees</div>
@@ -80,7 +80,7 @@ const Profile: React.FC<CardProps> = ({ isOpen, isClose, im, na }) => {
                 </div>
             </div>
 
-            <div className='h-14 w-full bg-white fixed bottom-0 left-0 right-0 flex justify-between px-2' >
+            <div className='h-14 w-full bg-white absolute bottom-0 left-0 right-0 flex justify-between px-2 ' >
                 <div className='w-[40%] ' >
                     <p>Clinic appointment</p>
                     <p className='text-green-600'>Available Today</p>
