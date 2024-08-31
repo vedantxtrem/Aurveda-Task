@@ -14,7 +14,7 @@ const Card: React.FC<CardProps> = ({ images, name }) => {
     const [model, setModel] = useState(false);
 
     return (
-        <div className="w-full md:w-[80%] md:h-48 flex flex-col md:mb-28 z-20 bg-white pb-7 py-4">
+        <div className="w-full md:w-[80%] md:h-48 flex flex-col  md:my-20 z-20 bg-white pb-7 py-4">
             <div className='w-full flex'>
                 <div className='w-[50%] lg:w-[20%] md:h-full p-5'>
                     <img className='rounded-full w-full' src={images} alt="doctor-img" />
@@ -34,7 +34,7 @@ const Card: React.FC<CardProps> = ({ images, name }) => {
                         <div className='border-b-2 border-dashed mt-2 hidden md:block'></div>
                     </div>
                     <div className='w-full hidden md:block'>
-                        <div className='w-full flex justify-between mt-2 ml-5'>
+                        <div className='w-full flex justify-between mt-2 ml-2'>
                             <div className='w-[70%] flex items-center'>
                                 <div className='bg-green-500 text-white rounded-sm flex items-center'>
                                     <FaThumbsUp className='mx-1' /> 97%
@@ -43,11 +43,10 @@ const Card: React.FC<CardProps> = ({ images, name }) => {
                                     300 Patient Stories
                                 </div>
                             </div>
-                            <div className='w-[25%] flex flex-col justify-center'>
+                            <div className='w-[30%] flex flex-col justify-center'>
                                 <div className='w-full text-center text-sm text-green-600 font-bold'>Available Today</div>
                                 <div className='w-full py-1 bg-blue-500 rounded-lg text-white text-center text-sm'>
                                     Book Clinic Visit
-                                    <p className='text-sm'>No Booking Fee</p>
                                 </div>
                             </div>
                         </div>
