@@ -13,11 +13,10 @@ interface CardProps {
 const Profile: React.FC<CardProps> = ({ isOpen, isClose, im, na }) => {
     if (!isOpen) return null;
     return (
-        <div className='w-[100%] h-screen fixed top-0 right-0 left-0 z-50 bg-white drop-shadow-lg'>
+        <div className='w-[100%] h-screen fixed top-0 right-0 left-0 z-50 bg-white drop-shadow-lg px-0'>
 
             <div onClick={()=> isClose() } className='fixed top-2 right-7'> X </div>
             <div className='bg-blue-950 w-40 h-10 fixed top-6 -left-3 rounded-sm text-white font-light flex justify-center items-center'> 
-                
                 <div>
                     Clinic
                 </div>
@@ -57,7 +56,7 @@ const Profile: React.FC<CardProps> = ({ isOpen, isClose, im, na }) => {
                 </div>
             </div>
 
-            <div className='w-full flex  justify-center items-center mt-6 ' >
+            <div className='w-full flex justify-center items-center mt-6 px-3' >
                 <div className='w-[92%] flex flex-col items-center justify-center rounded-2xl shadow-[0_0_10px_#808080] pb-4 '>
                         <div className='bg-blue-100 w-full h-14 rounded-t-2xl flex justify-between px-3 items-center'>
                             <div className='flex items-center gap-2'> <ImHome className="text-blue-400"/> Clinic Appointment </div>
